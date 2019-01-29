@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+$blue: #1b6dc1;
+$grey: #dfe6e8;
+$green: #4ccb70;
+$red: #ff614c;
+$white: #f8f8f8;
+
+.Counter {
+  display: flex;
+  justify-content: center;
+
+  .count-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $white;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 3px 3px #f1f1f1;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+  .green {
+    color: $green;
+  }
+  .red {
+    color: $red;
+  }
+
+  .btn1 {
+    font-family: "Concert One", cursive;
+    width: 40px;
+    font-size: 2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: $blue;
+    color: #fff;
+    outline: none;
+  }
+
+  .btn2 {
+    font-family: "Concert One", cursive;
+    width: 40px;
+    font-size: 2rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: $blue;
+    color: #fff;
+    outline: none;
+  }
+}

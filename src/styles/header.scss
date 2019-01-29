@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+$blue: #1b5998;
+$orange: #fe9870;
+
+header {
+  margin-bottom: 30px;
+  background-color: $blue;
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    color: $orange;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+  }
+}
